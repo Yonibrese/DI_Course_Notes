@@ -89,5 +89,4 @@ If the model’s performance is not satisfactory, you may need to adjust the mod
 
 or 
 
-If the model’s performance is not satisfactory, you may need to adjust the model (tune its parameters), add more data, or even change the model or preprocessing methods.
-
+Deploy the model and Moniter the results to see if you need to fine tune in the future
