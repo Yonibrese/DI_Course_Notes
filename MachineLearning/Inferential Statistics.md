@@ -192,3 +192,15 @@ print(model.summary())
 print(f"\nOverall Model F-statistic: {model.fvalue:.4f}")
 print(f"Overall Model F p-value: {model.f_pvalue:.4e}")
 ```
+
+## Confidence Intervals (CIs)
+
+In machine learning, a Confidence Interval (CI) gives a range of values—derived from sample data—that is likely to contain the true performance metric (such as accuracy, precision, or RMSE) of your model with a specified level of confidence (typically 95%)
+
+### Why Confidence Intervals Matter
+
+1. **Accounting for Sampling Variability**: A single point estimate (e.g., "my model has 85% accuracy") only reflects performance on one specific test set. If you split your data differently, that number would change.
+
+2. **Model Comparison**: If Model A has 86% accuracy and Model B has 84%, are they genuinely different, or is the gap just random noise? CIs help answer this by showing the overlap in uncertainty.
+
+3. **Reliability and Risk Assessment**: Stakeholders care about robustness. Knowing that a model's accuracy falls between 81% and 89% with 95% confidence provides a much clearer picture of risk than a single optimistic number.
