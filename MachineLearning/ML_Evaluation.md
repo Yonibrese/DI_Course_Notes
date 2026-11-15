@@ -73,7 +73,8 @@ For regression tasks (predicting numbers like house prices), we measure the magn
 
 The goal of training a neural network is to minimize this error (making this difference as small as possible)
 
-<!-- Need to expand the regression Metrics section to include Categorical Crossentropy Binary Crossentropy -->
+>[!note]
+>Below are loss functions: you can see more information on loss functions with the [loss function guide](/DeepLearning/LossFunctions.md)
 
 ### Mean Squared Error (MSE)
 
